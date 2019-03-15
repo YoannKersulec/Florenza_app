@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/login_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_centerVertical="true"
+    >
+        
+        <ImageView android:layout_width="100dp"
+                   android:layout_height="150dp"
+                   android:src="@drawable/logo_florenza"
+                   android:layout_gravity="center_horizontal"
+        />
+
+        <EditText
+                android:id="@+id/username_text"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/profile_user"
+                android:drawableLeft="@drawable/profile_user"
+                android:drawablePadding="10dp"
+                android:hint="@string/username_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_edit_background"
+                android:padding="10dp"
+        />
+
+        <EditText
+                android:id="@+id/password_text"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/password_logo"
+                android:drawableLeft="@drawable/password_logo"
+                android:drawablePadding="14dp"
+                android:hint="@string/password_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_edit_background"
+                android:padding="10dp"
+                android:inputType="textPassword"
+        />
+        
+        <TextView
+                android:id="@+id/forgot_password_text"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forgot_password"
+                android:padding="10dp"
+                android:layout_gravity="end"
+        />
+        
+        <Button
+                android:id="@+id/button_sign_in"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:text="@string/sign_in"
+                android:textAllCaps="false"
+                android:textSize="21sp"
+                android:onClick="goToAccueil"
+        />
+
+        <Button
+                android:id="@+id/butoon_sign_up"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up"
+                android:textSize="21sp"
+                android:background="@drawable/button_background_sign_up"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+
+        />
+    </LinearLayout>
+
+</RelativeLayout>

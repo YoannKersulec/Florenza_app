@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:background="@color/green"
+                                             android:layout_height="match_parent"
+
+>
+
+    <ImageView
+            android:layout_width="127dp"
+            android:layout_height="134dp"
+            android:padding="2dp"
+            android:background="@drawable/background_img"
+            android:onClick="selectImage"
+            android:id="@+id/imageProfil1" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="147dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageProfil2" android:layout_marginEnd="10dp"/>
+
+    <ImageView
+            android:layout_width="131dp"
+            android:layout_height="134dp"
+            android:id="@+id/imageProfil2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="147dp"
+            android:padding="2dp"
+            android:background="@drawable/background_img"
+            android:onClick="selectImage"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <ImageView
+            android:layout_width="127dp"
+            android:layout_height="134dp"
+            android:id="@+id/imageProfil3"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="147dp" android:layout_marginStart="10dp"
+            android:padding="2dp"
+            android:background="@drawable/background_img"
+            android:onClick="selectImage"
+            app:layout_constraintStart_toEndOf="@+id/imageProfil2"/>
+    <ImageView
+            android:layout_width="127dp"
+            android:layout_height="134dp"
+            android:id="@+id/imageProfil4"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/imageProfil1"
+            android:padding="2dp"
+            android:background="@drawable/background_img"
+            android:onClick="selectImage"
+            app:layout_constraintEnd_toStartOf="@+id/imageProfil5" android:layout_marginEnd="10dp"/>
+    <ImageView
+            android:layout_width="127dp"
+            android:layout_height="134dp"
+            android:id="@+id/imageProfil5" android:layout_marginTop="16dp"
+            android:padding="2dp"
+            android:background="@drawable/background_img"
+            android:onClick="selectImage"
+            app:layout_constraintTop_toBottomOf="@+id/imageProfil2"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+    />
+    <ImageView
+            android:layout_width="127dp"
+            android:layout_height="134dp"
+            android:id="@+id/imageProfil6" android:layout_marginTop="16dp"
+            android:padding="2dp"
+            android:background="@drawable/background_img"
+            android:onClick="selectImage"
+            app:layout_constraintTop_toBottomOf="@+id/imageProfil3" android:layout_marginStart="10dp"
+            app:layout_constraintStart_toEndOf="@+id/imageProfil5"/>
+    <ImageView
+            android:layout_width="127dp"
+            android:layout_height="134dp"
+            android:id="@+id/imageProfil7" android:layout_marginTop="16dp"
+            android:padding="2dp"
+            android:background="@drawable/background_img"
+            android:onClick="selectImage"
+            app:layout_constraintTop_toBottomOf="@+id/imageProfil4"
+            app:layout_constraintEnd_toStartOf="@+id/imageProfil8" android:layout_marginEnd="10dp"/>
+    <ImageView
+            android:layout_width="127dp"
+            android:layout_height="134dp"
+            android:id="@+id/imageProfil8"
+            android:padding="2dp"
+            android:background="@drawable/background_img"
+            android:onClick="selectImage"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageProfil5" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <ImageView
+            android:layout_width="127dp"
+            android:layout_height="134dp"
+            android:id="@+id/imageProfil9" android:layout_marginTop="16dp"
+            android:padding="2dp"
+            android:background="@drawable/background_img"
+            android:onClick="selectImage"
+            app:layout_constraintTop_toBottomOf="@+id/imageProfil6" android:layout_marginStart="10dp"
+            app:layout_constraintStart_toEndOf="@+id/imageProfil8"
+    />
+
+
+</android.support.constraint.ConstraintLayout>

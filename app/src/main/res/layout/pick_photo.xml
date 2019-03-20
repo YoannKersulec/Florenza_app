@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@drawable/login_background"
+>
+
+    <TextView
+            android:text="PickFlower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/TextPick"
+            android:textAppearance="@style/TextAppearance.AppCompat" android:fontFamily="sans-serif-black"
+            android:textSize="36sp" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+            android:text="Daffodil"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick1"
+            android:layout_marginTop="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/TextPick"
+            android:textAppearance="@style/TextAppearance.AppCompat" android:fontFamily="sans-serif-black"
+            android:layout_marginEnd="50dp" app:layout_constraintEnd_toStartOf="@+id/textPick2"/>
+    <TextView
+            android:text="Snowdrop"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick2"
+            android:layout_marginTop="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/TextPick" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat" android:fontFamily="sans-serif-black"/>
+    <TextView
+            android:text="Lily Valley"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick3"
+            android:layout_marginTop="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/TextPick"
+            android:textAppearance="@style/TextAppearance.AppCompat" android:fontFamily="sans-serif-black"
+            app:layout_constraintStart_toEndOf="@+id/textPick2" android:layout_marginStart="50dp"/>
+    <TextView
+            android:text="Bluebell"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick4"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick1" app:layout_constraintEnd_toStartOf="@+id/textPick5"
+            android:layout_marginEnd="50dp"/>
+    <TextView
+            android:text="Crocus"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick5"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick2"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="Iris"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick6"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick3" app:layout_constraintStart_toEndOf="@+id/textPick5"
+            android:layout_marginStart="50dp"/>
+    <TextView
+            android:text="Tigerlily"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick7"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick4" android:layout_marginEnd="50dp"
+            app:layout_constraintEnd_toStartOf="@+id/textPick8"/>
+    <TextView
+            android:text="Tulip"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick8"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick5" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="Fritillary"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick9"
+            android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick6"
+            android:layout_marginStart="50dp" app:layout_constraintStart_toEndOf="@+id/textPick8"
+            android:textAppearance="@style/TextAppearance.AppCompat" android:fontFamily="sans-serif-black"/>
+    <TextView
+            android:text="Sunflower"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick10"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick7" android:layout_marginEnd="50dp"
+            app:layout_constraintEnd_toStartOf="@+id/textPick11"/>
+    <TextView
+            android:text="Daisy"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick11"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick8" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="Colts foot"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick12"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" app:layout_constraintStart_toEndOf="@+id/textPick11"
+            android:layout_marginStart="50dp" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick9"/>
+    <TextView
+            android:text="Dandelion"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick13"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" app:layout_constraintEnd_toStartOf="@+id/textPick14"
+            android:layout_marginEnd="50dp" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick10"/>
+    <TextView
+            android:text="Buttercut"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick14"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick11" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+            android:text="Cowslip"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick15"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" app:layout_constraintStart_toEndOf="@+id/textPick14"
+            android:layout_marginStart="50dp" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick12"/>
+    <TextView
+            android:text="Windflower"
+            android:onClick="clickOnPhoto"
+            android:layout_width="76dp"
+            android:layout_height="32dp" android:id="@+id/textPick16"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick14"
+            android:layout_marginStart="50dp" app:layout_constraintStart_toStartOf="@+id/textPick13"/>
+    <TextView
+            android:text="Pansy"
+            android:onClick="clickOnPhoto"
+            android:layout_width="65dp"
+            android:layout_height="32dp" android:id="@+id/textPick17"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif-black" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textPick14"
+            android:layout_marginEnd="50dp" app:layout_constraintEnd_toEndOf="@+id/textPick15"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DELETE FLOWER"
+              app:layout_constraintStart_toStartOf="parent"
+              android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginEnd="8dp"
+              android:onClick="deleteFlower"
+              android:textColor="@color/red"
+              android:textAllCaps="true"
+              android:textSize="40dp"
+              android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/textPick16"/>
+
+</android.support.constraint.ConstraintLayout>
